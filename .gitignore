@@ -2,6 +2,7 @@
 *.iml
 *.idea
 *.class
+.gradle/
 out/
 build/
 target/
