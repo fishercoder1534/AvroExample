@@ -1,0 +1,12 @@
+@namespace("com.abc.xyz")
+    protocol XYZ_Protocol_v1 {
+      record VendorItemInfo {
+          string vendorItemId;
+          long price;
+          string deliveryChargeType;
+      }
+
+      record XyzDto {
+        array<VendorItemInfo> vendorItemInfos;
+      }
+    }

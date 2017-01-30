@@ -1,0 +1,20 @@
+plugins {
+    id "com.commercehub.gradle.plugin.avro" version "0.9.0"
+}
+
+group 'com.fishercoder1534'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile group: 'org.apache.avro', name: 'avro', version: '1.8.1'
+}
